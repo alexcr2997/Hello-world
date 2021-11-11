@@ -1,0 +1,8 @@
+-c
+-I"D:/DIPLOMADO_EMBEBIDOS/TAREAS/MODULO_3/S32K144EVB_Practica_Modulo3/include"
+-x assembler-with-cpp
+-DSTART_FROM_FLASH
+-g3
+-mcpu=cortex-m4
+-specs=nosys.specs
+--sysroot="D:/DIPLOMADO_EMBEBIDOS/TAREAS/MODULO_2/S32 Design Studio/S32DS/build_tools/gcc_v9.2/gcc-9.2-arm32-eabi/arm-none-eabi/newlib"

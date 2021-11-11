@@ -1,0 +1,13 @@
+-T
+"D:/DIPLOMADO_EMBEBIDOS/TAREAS/MODULO_3/S32K144EVB_Practica_Modulo3/Project_Settings/Linker_Files/S32K144_64_flash.ld"
+-Wl,-Map,"S32K144EVB_Practica_Modulo3_Unidad1.map"
+-Xlinker
+--gc-sections
+-n
+-mcpu=cortex-m4
+-specs=nosys.specs
+--sysroot="D:/DIPLOMADO_EMBEBIDOS/TAREAS/MODULO_2/S32 Design Studio/S32DS/build_tools/gcc_v9.2/gcc-9.2-arm32-eabi/arm-none-eabi/newlib"
+"./Project_Settings/Startup_Code/startup.o"
+"./Project_Settings/Startup_Code/startup_S32K144.o"
+"./Project_Settings/Startup_Code/system_S32K144.o"
+"./src/main.o"

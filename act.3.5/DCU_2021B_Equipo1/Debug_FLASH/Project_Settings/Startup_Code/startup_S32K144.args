@@ -1,0 +1,43 @@
+-c
+-I../SDK/platform/drivers/inc
+-I../SDK/rtos/FreeRTOS/Source/include
+-I../SDK/platform/pal/inc
+-I../SDK/rtos/FreeRTOS/Source/portable/GCC/ARM_CM4F
+-I../SDK/rtos/osif
+-I"C:/Users/alexc/workspaceS32DS.3.4/DCU_2021B_Equipo1/src"
+-I"C:/Users/alexc/workspaceS32DS.3.4/DCU_2021B_Equipo1/src/DCU/Application/DoorApp"
+-I"C:/Users/alexc/workspaceS32DS.3.4/DCU_2021B_Equipo1/src/DCU/Application/WindowApp"
+-I"C:/Users/alexc/workspaceS32DS.3.4/DCU_2021B_Equipo1/src/DCU/Communication/Signals"
+-I"C:/Users/alexc/workspaceS32DS.3.4/DCU_2021B_Equipo1/src/DCU/EcuAbstraction/Button"
+-I"C:/Users/alexc/workspaceS32DS.3.4/DCU_2021B_Equipo1/src/DCU/EcuAbstraction/Door"
+-I"C:/Users/alexc/workspaceS32DS.3.4/DCU_2021B_Equipo1/src/DCU/EcuAbstraction/HwConfig"
+-I"C:/Users/alexc/workspaceS32DS.3.4/DCU_2021B_Equipo1/src/DCU/EcuAbstraction/Window"
+-I"C:/Users/alexc/workspaceS32DS.3.4/DCU_2021B_Equipo1/src/DCU/Global"
+-I"C:/Users/alexc/workspaceS32DS.3.4/DCU_2021B_Equipo1/src/DCU/Microcontroller/Adc"
+-I"C:/Users/alexc/workspaceS32DS.3.4/DCU_2021B_Equipo1/src/DCU/Microcontroller/Dio"
+-I"C:/Users/alexc/workspaceS32DS.3.4/DCU_2021B_Equipo1/src/DCU/Microcontroller/Mcu"
+-I"C:/Users/alexc/workspaceS32DS.3.4/DCU_2021B_Equipo1/src/DCU/Microcontroller/Mpu"
+-I"C:/Users/alexc/workspaceS32DS.3.4/DCU_2021B_Equipo1/src/DCU/Microcontroller/Wdg"
+-I"C:/Users/alexc/workspaceS32DS.3.4/DCU_2021B_Equipo1/src/DCU/OS/Tasks"
+-I"C:/Users/alexc/workspaceS32DS.3.4/DCU_2021B_Equipo1/src/DCU/Runtime"
+-I"C:/Users/alexc/workspaceS32DS.3.4/DCU_2021B_Equipo1/board"
+-I"D:/DIPLOMADO_EMBEBIDOS/TAREAS/MODULO_2/S32 Design Studio/S32DS/software/S32SDK_S32K1XX_RTM_4.0.2/rtos/FreeRTOS_S32K/Source/include"
+-I"D:/DIPLOMADO_EMBEBIDOS/TAREAS/MODULO_2/S32 Design Studio/S32DS/software/S32SDK_S32K1XX_RTM_4.0.2/rtos/FreeRTOS_S32K/Source/portable/GCC/ARM_CM4F"
+-I"D:/DIPLOMADO_EMBEBIDOS/TAREAS/MODULO_2/S32 Design Studio/S32DS/software/S32SDK_S32K1XX_RTM_4.0.2/platform/devices/S32K144/include"
+-I"D:/DIPLOMADO_EMBEBIDOS/TAREAS/MODULO_2/S32 Design Studio/S32DS/software/S32SDK_S32K1XX_RTM_4.0.2/platform/devices/S32K144/startup"
+-I"D:/DIPLOMADO_EMBEBIDOS/TAREAS/MODULO_2/S32 Design Studio/S32DS/software/S32SDK_S32K1XX_RTM_4.0.2/platform/devices/S32K144"
+-I"D:/DIPLOMADO_EMBEBIDOS/TAREAS/MODULO_2/S32 Design Studio/S32DS/software/S32SDK_S32K1XX_RTM_4.0.2/platform/devices/common"
+-I"D:/DIPLOMADO_EMBEBIDOS/TAREAS/MODULO_2/S32 Design Studio/S32DS/software/S32SDK_S32K1XX_RTM_4.0.2/platform/devices"
+-I"D:/DIPLOMADO_EMBEBIDOS/TAREAS/MODULO_2/S32 Design Studio/S32DS/software/S32SDK_S32K1XX_RTM_4.0.2/platform/drivers/inc"
+-I"D:/DIPLOMADO_EMBEBIDOS/TAREAS/MODULO_2/S32 Design Studio/S32DS/software/S32SDK_S32K1XX_RTM_4.0.2/platform/drivers/src/clock/S32K1xx"
+-I../SDK/platform/drivers/src/adc
+-x assembler-with-cpp
+-DSTART_FROM_FLASH
+-DUSING_OS_FREERTOS
+-g3
+-mcpu=cortex-m4
+-mfloat-abi=hard
+-mfpu=fpv4-sp-d16
+-specs=nano.specs
+-specs=nosys.specs
+--sysroot="D:/DIPLOMADO_EMBEBIDOS/TAREAS/MODULO_2/S32 Design Studio/S32DS/build_tools/gcc_b1620/gcc-6.3-arm32-eabi/arm-none-eabi/newlib"
